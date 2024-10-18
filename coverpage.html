@@ -1,105 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+    <style>
+
+        body 
+        {
+            font-size: 20px;
+            background-image: url("Images/Starfield.jpg");
+            margin: 0;
+        }
+
+        *
+        {
+            color:rgb(255, 0, 191);
+            font-family: Arial;
+        }
+
+    </style>
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>BASIC HTML TUTORIAL EXAMPLE</title>
     </head>
-
-    <body>
+    
+    <body >
         <!--Main Heading-->
-        <h1>WELCOME TO YOUR HTML TUTORIAL</h1>
-        <h2>This is another example of a Header</h2>
+        <!--<h1>WELCOME TO YOUR HTML TUTORIAL</h1>-->
+        <!--<div style="display: grid; grid-template-columns: 650px 650px;">-->
 
-        <!--This is a paragraph-->
-        <p>
-            Hello <br>this</br> is a <br>poem</br>
-        </p>
+            <!--THIS IS THE LEFT DIV--------------------------------------------------------------------------------------------------------------------->
+            <div>
 
-        <p>Hey there, click this link, this is not a zip bomb ha ha.<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target = "_blank"> CODE </a></p>
+            </div>
 
-        <!--Display Image-->
-        <h2>This is an example image</h2>
-        <img src="woe.webp" alt="uponye">
+            <!--THIS IS THE RIGHT DIV--------------------------------------------------------------------------------------------------------------------->
 
-        <!--LISTS-->
-        <h3>THESE ARE LISTS WE WILL BE WORKING ON:</h3>
-        <h4>This is a list</h4>
+            <div style="background-color: rgb(125, 214, 255); height: 75px; width: auto; margin: 0px; padding: 0px; border: 0px;"> </div>
 
-        <ul>
-            <li>This is a bullet point </li>
-            <li>Another bullet point</li>
-            <li>Wow more bullet points</li>
-            <li>Web design is my passion</li>
-        </ul>
 
-        <h4>Reasons web dev is cool</h4>
-        <ol>
-            <li>I mean it's alright</li>
-            <li>It's ok</li>
-            <li>It's a very lukewarm activity</li>
-            <li>It's neat, yep</li>
-        </ol>
+            <div style="text-align: center;">
+                <img style="width:800px; display: block; margin-top: 75px; margin-left: auto; margin-right: auto;" src="Images/TWebTitle.png" alt="argh">
 
-        <!--TABLES-->
-        <h2>Example of a table</h2>
-        <table border='1'>
-            <tr>
-                <th>Fork</th>
-                <th>Plate</th>
-                <th>Spoon</th>
-            </tr>
+                <br>
 
-            <tr>
-                <td>Fork 1</td>
-                <td>Plate 1</td>
-                <td>Spoon 1</td>
-            </tr>
+                <h1>About Me</h1>
+                
+                <!--This is a paragraph-->
+                <p style="font-size: 25px">
+                    I'm Tim, a guy who likes games. yep, mmhmm. Pototatos are neat and coool, ther's like 50 dishes of potatoes. <br>
+                    I'm a COmputer Science major. Web design is my absoulute <span style="font-size: 50px">PASSION</span> as you can cleearly see. <br>
+                    I'm leanring so much about git commands, and web development frameworks and computer junk.
+                </p>
+                    
+                <br>
+                <br>
+                <br>
+                
+                <!--Display Image-->
+                <h2 style="font-size: 50px">QUOTE OF THE DAY</h2>
+                <img style="width:600px;" src="Images/sparkleon.gif" alt="uponye">
 
-            <tr>
-                <td>Fork 2</td>
-                <td>Plate 2</td>
-                <td>Spoon 2</td>
-            </tr>
-        </table>
+                <br>
 
-        <!--FORMS-->
-        <h2>This is how you do forms on HTML</h2>
-        <form action="" method="">
-            <label for="name">Name</label><br>
-            <input type="text" id="name" name="name"><br><br>
+                <p style="font-size: 50px"> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target = "_blank">Hey there, click this link, this is not a zip bomb ha ha.</a></p>
 
-            <label for="email">Email</label><br>
-            <input type="email" id="email" name="email"><br><br>
+                <hr style="color:purple; background-color:purple">
 
-            <label for="password">Password</label><br>
-            <input type="password" id="password" name="password"><br><br>
+                <!--LISTS-->
+                <h4><span style="font-size: 50px; margin-left: 490px;">This is a lis-</span> wait why are the bullets all the way to the left?</h4>
 
-            <!--Buttons-->
-            <label for="gender">Gender</label><br>
+                <ul>
+                    <li>This is a bullet point </li>
+                    <li>Another bullet point</li>
+                    <li>Wow more bullet points</li>
+                    <li>Web design is my passion</li>
+                </ul>
 
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label><br>
+                <br>
+                <br>
 
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label><br>
+                <h4><span style="font-size: 50px; margin-left: 620px;">Reasons web dev is coo-</span> ok seriously how do i bring those numbers/bullets to the center</h4>
+                <ol>
+                    <li>I mean it's alright</li>
+                    <li>It's ok</li>
+                    <li>It's a very lukewarm activity</li>
+                    <li>It's neat, yep</li>
+                </ol>
 
-            <!--Drop down-->
-            <label for="country">Country</label> <br>
-            <select id="country" name="country"> <br>
-                <option value="no">Select</option>
-                <option value="us">United States of America</option>
-                <option value="mx">Mexico</option>
-                <option value="jap">Japan</option>
-                <option value="can">Canada</option>
-            </select><br><br><br>
+                <hr>
 
-            <!--Creating Message Box-->
-            <h10>THIS IS AN EXAMPLE OF A MESSAGE BOX</h10><br><br>
-            <label for="message">Message</label><br>
-            <textarea id="message" name="message" row="10" cols="60"></textarea><br><br>
+                <!--TABLES-->
+                <h2>Dinner's ready, I've set the table</h2>
+                <table border='1' style="margin: 0px auto;"">
+                    <tr>
+                        <th>Fork</th>
+                        <th>Plate</th>
+                        <th>Spoon</th>
+                    </tr>
 
-            <input type="submit" value="submit">
+                    <tr>
+                        <td>Fork 1</td>
+                        <td>Plate 1</td>
+                        <td>Spoon 1</td>
+                    </tr>
+
+                    <tr>
+                        <td>Fork 2</td>
+                        <td>Plate 2</td>
+                        <td>Spoon 2</td>
+                    </tr>
+
+                    <tr>
+                        <td>Fork 3</td>
+                        <td>Plate 3</td>
+                        <td>Spoon 3</td>
+                    </tr>
+                </table>
+
+                <!--FORMS-->
+                <h2>This form thing doesn't work idk</h2>
+                <form action="" method="">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name"><br><br>
+
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <label for="password">Credit Card Number</label><br>
+                    <input type="password" id="password" name="password"><br><br><br>
+
+
+                    <!--Buttons-->
+                    <h2><label for="gender">Did you clikc a button?</label><br></h2>
+
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">yes</label><br>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">yes</label><br>
+
+                    <!--Drop down-->
+                    <label for="country">Country</label> <br>
+                    <select id="country" name="country"> <br>
+                        <option value="no">Select</option>
+                        <option value="us">United States of America</option>
+                        <option value="mx">Mexico</option>
+                        <option value="jap">Japan</option>
+                        <option value="can">Canada</option>
+                        <option value="can">Why are you looking here?</option>
+                    </select><br><br><br>
+
+                    <!--Creating Message Box-->
+                    <h10>Feel free to leave a comment, it's not going to get recorded tho</h10><br><br>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" row="10" cols="60"></textarea><br><br>
+
+                    <input type="submit" value="submit">
+
+                    <p style="font-size: 50px"> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target = "_blank">Check out my soundcloud</a></p>
+            </div>
         </form>
     </body>
 </html>
